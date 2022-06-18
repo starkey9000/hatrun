@@ -5,17 +5,18 @@
   "Params": {
     "raceDate": "March 23",
     "raceDateYear": "2023",
+    "annual": "33rd",
     "registerLink": "https://ultrasignup.com",
     "directors": [
       {
         "id": 1,
-        "img_url": "./img/directors/tim_gavin.jpg",
+        "img_url": "https://starkey9000.github.io/hatrun/img/directors/tim_gavin.jpg",
         "name": "Tim Gavin",
         "title": "Race Director"
       },
       {
         "id": 2,
-        "img_url": "./img/directors/ginn_white.jpeg",
+        "img_url": "https://starkey9000.github.io/hatrun/img/directors/ginn_white.jpeg",
         "name": "Ginn White",
         "title": "Race Director"
       },
