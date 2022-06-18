@@ -1,5 +1,12 @@
-<ul>
+<ul class="nav-wrapper">
+  <li class="nav-item-logo">
+    <a href="/">
+      <img class="logo" width="150" height="100" src="/img/hat_logo.jpg" alt="HAT Run logo"></img>
+    </a>
+  </li>
   {{ range .Site.Menus.mainmenu }}
-  <li><a href="{{ .URL }}">{{ .Name }}</a></li>
+  <li class="nav-item">
+    <a class="link nav-link" href="{{ .URL }}">{{ .Name }}</a>
+  </li>
   {{ end }}
 </ul>

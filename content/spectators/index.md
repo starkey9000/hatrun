@@ -1,6 +1,5 @@
 ---
-title: "Spectators Page"
+title: "Spectators"
 menu: "mainmenu"
 ---
 
-Spectator's Page
