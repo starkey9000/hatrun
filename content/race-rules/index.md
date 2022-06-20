@@ -1,6 +1,7 @@
 ---
 title: "Race Rules"
 menu: "mainmenu"
+weight: "4"
 ---
 
 

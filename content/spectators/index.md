@@ -1,6 +1,7 @@
 ---
 title: "Spectators"
 menu: "mainmenu"
+weight: "3"
 ---
 
 There are 2 great viewing spots on the HAT run course to catch your runner multiple times.

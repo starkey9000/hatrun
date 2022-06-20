@@ -1,6 +1,7 @@
 ---
-title: "Volunteer"
+title: "Volunteers"
 menu: "mainmenu"
+weight: "2"
 ---
 
 ## Calling all VOLUNTEERS…

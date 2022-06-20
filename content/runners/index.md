@@ -1,6 +1,7 @@
 ---
 title: "Runners"
 menu: "mainmenu"
+weight: "1"
 ---
 
 ## The Course

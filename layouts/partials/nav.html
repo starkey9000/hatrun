@@ -4,9 +4,13 @@
       <img class="logo" width="150" height="100" src="{{.Site.BaseURL}}img/hat_logo.jpg" alt="HAT Run logo"></img>
     </a>
   </li>
-  {{ range .Site.Menus.mainmenu }}
-  <li class="nav-item">
-    <a class="link nav-link" href="{{ .URL }}">{{ .Name }}</a>
-  </li>
+  {{ range .Site.Pages.ByWeight}}
+    {{if in "Categories Tags Home Page" .Title }}
+    {{ else }}
+    <li class="nav-item">
+      <a class="link nav-link" href="{{.Permalink}}">{{ .Title }}</a>
+    </li>
+    {{end}}
   {{ end }}
+
 </ul>
