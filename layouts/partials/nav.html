@@ -5,12 +5,14 @@
     </a>
   </li>
   {{ range .Site.Pages.ByWeight}}
-    {{if in "Categories Tags Home Page" .Title }}
-    {{ else }}
-    <li class="nav-item">
-      <a class="link nav-link" href="{{.Permalink}}">{{ .Title }}</a>
-    </li>
-    {{end}}
+
+  {{if in .Site.Params.navigation .Title }}
+  <li class="nav-item">
+    <a class="link nav-link" href="{{.Permalink}}">{{ .Title }}</a>
+  </li>
+  {{ else }}
+
+  {{end}}
   {{ end }}
 
 </ul>

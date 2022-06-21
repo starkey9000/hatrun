@@ -6,6 +6,13 @@
     "raceDate": "March 23",
     "raceDateYear": "2023",
     "annual": "33rd",
+    "navigation": [
+      "Runners",
+      "Volunteers",
+      "Spectators",
+      "Race Rules",
+      "News & Updates"
+    ],
     "registerLink": "https://ultrasignup.com",
     "directors": [
       {
