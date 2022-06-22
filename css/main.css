@@ -91,7 +91,94 @@ ul {
 
 /* NAVIGATION */
 
-.nav-wrapper {
+.nav-toggle{
+  position: absolute;
+  cursor: pointer;
+  margin: 0rem 1rem;
+  right: 0;
+}
+
+.nav-toggle svg{
+  width: 1.5rem;
+  fill: var(--primary);
+}
+
+.nav-toggle .close{
+  display: none;
+}
+
+.nav-toggle .menu{
+  margin-top: .2rem;
+}
+
+.nav-checkbox{
+  display: none;
+}
+
+.nav-wrapper{
+  display: flex;
+  flex-direction: column;
+  gap: 2rem;
+  align-items: center;
+  margin: 1rem;
+}
+
+.nav-item{
+  list-style: none;
+  display: none;
+}
+
+.nav-item:first-child{
+  margin-right: auto;
+  display: block;
+}
+
+.nav-link{
+  text-decoration: none;
+  color: var(--primary);
+  font-size: 1.2rem;
+}
+
+.logo{
+  width: 130px;
+}
+
+#nav-checkbox:checked ~ ul.nav-wrapper li{
+  display: block;
+}
+
+#nav-checkbox:checked ~ label.nav-toggle .close{
+  display: block;
+}
+
+#nav-checkbox:checked ~ label.nav-toggle .menu{
+  display: none;
+}
+
+/* Navigation Desktop View */
+
+@media only screen and (min-width: 767px){
+  .nav-toggle{
+    display: none;
+  }
+
+  .nav-wrapper{
+    flex-direction: row;
+    gap: 1.2rem;
+    margin: 2rem;
+  }
+
+  .nav-item{
+    display: block;
+  }
+
+  .nav-link{
+    font-size: 1rem;
+  }
+}
+
+
+/* .nav-wrapper {
   display: flex;
   border-top: 2px solid var(--primary);
   border-bottom: 4px solid var(--primary);
@@ -115,7 +202,7 @@ ul {
 
 .nav-link {
   color: var(--primary);
-}
+} */
 
 /* BANNER */
 .banner-overlay {
