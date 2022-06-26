@@ -5,35 +5,40 @@
 {{ define "main" }}
 
 {{partial "breadcrumbs" . }}
-<div class="main-content-narrow-wrapper" style="padding: 3rem 0rem;">
-  <div style="display: flex; margin-bottom: 1rem; flex-direction: row; gap: 2rem;">
+<div class="main-content-narrow-wrapper">
+  <div class="blog-list-buffer">
+    <div class="blog-list-container">
 
-    <div class="news-list" style="width:60%;">
-      {{range .Pages}}
+      <div class="news-list">
+        {{range .Pages}}
 
-      <div style="margin-bottom: 2rem;">
-        <p style="margin: 0px"><em>{{ .Date | time.Format ":date_full" }}</em></p>
-        <h2>{{.Title}}</h2>
-        {{truncate 150 .Content}}
-        <a href="{{.Permalink}}" style="border: 0px; padding: .8rem; background: var(--button); color: var(--white); text-decoration: none; ">
-          Read Full Post
-        </a>
+        <div class="news-card">
+          <p class="news-card-date"><em>{{ .Date | time.Format ":date_full" }}</em></p>
+          <h2>{{.Title}}</h2>
+          {{truncate 150 .Content}}
+          <a class="news-card-button" href="{{.Permalink}}">
+            Read Full Post
+          </a>
+        </div>
+
+        {{end}}
       </div>
 
-      {{end}}
-    </div>
 
-
-    <div class="aside" style="width:40%">
-      <div style="background: #ddd; padding: 2rem;">
-        <h2>Race Date</h2>
-        <p>{{.Site.Params.raceDate}}, {{.Site.Params.raceDateYear}}</p>
-        <h2>Location</h2>
-        <p>Susquehanna State Park</p>
+      <div class="aside">
+        <div class="aside-bg">
+          <div class="aside-entry">
+            <h2>Race Date</h2>
+            <p>{{.Site.Params.raceDate}}, {{.Site.Params.raceDateYear}}</p>
+          </div>
+          <div class="aside-entry">
+            <h2>Location</h2>
+            <p>Susquehanna State Park</p>
+          </div>
+        </div>
       </div>
 
     </div>
-
   </div>
 </div>
 
