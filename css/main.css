@@ -165,7 +165,7 @@ ul {
   .nav-wrapper {
     flex-direction: row;
     gap: 1.2rem;
-    margin: 2rem;
+    margin: 1rem 2rem;
   }
 
   .nav-item {
@@ -245,7 +245,7 @@ ul {
     position: absolute;
     padding: 0px 100px;
     color: var(--white);
-    background: transparent;
+    background: rgba(0,0,0,.15);
     margin: 0rem;
     top: 0px;
     inset: 0;
@@ -256,7 +256,7 @@ ul {
   }
 
   .banner-title {
-    font-size: 5rem;
+    font-size: 3.5rem;
     margin: 0.67em 0;
   }
 
