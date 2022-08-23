@@ -3,9 +3,17 @@
   "languageCode": "en-us",
   "title": "HAT RUN 50K",
   "Params": {
-    "raceDate": "March 23",
-    "raceDateYear": "2023",
-    "annual": "33rd",
+    "event": {
+      "raceMonth": "March",
+      "raceDate": "18",
+      "raceYear": "2023",
+      "annual": "33rd"
+    },
+    "registration": {
+      "month": "November",
+      "date": "25",
+      "year": "2022"
+    },
     "navigation": [
       "Runners",
       "Volunteers",
