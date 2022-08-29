@@ -240,6 +240,10 @@ ul {
   border-radius: .2rem;
 }
 
+.banner-image {
+  height: auto;
+}
+
 @media only screen and (min-width: 767px) {
   .banner-overlay {
     position: absolute;
@@ -247,7 +251,7 @@ ul {
     justify-content: flex-end;
     padding: 0px 100px;
     color: var(--white);
-    background: rgba(0,0,0,.15);
+    background: rgba(0, 0, 0, .15);
     margin: 0rem;
     top: 0px;
     inset: 0;
@@ -269,7 +273,6 @@ ul {
 
 .banner-image {
   display: block;
-  height: 375px;
 }
 
 /* MAIN CONTENT */
