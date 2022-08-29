@@ -5,7 +5,7 @@
   "Params": {
     "event": {
       "raceMonth": "March",
-      "raceDate": "18",
+      "raceDate": "25",
       "raceYear": "2023",
       "annual": "33rd"
     },
@@ -21,7 +21,7 @@
       "Race Rules",
       "News & Updates"
     ],
-    "registerLink": "https://ultrasignup.com",
+    "registerLink": "https://ultrasignup.com/register.aspx?did=97105",
     "directors": [
       {
         "id": 1,
@@ -41,6 +41,8 @@
         "name": "Seth McElroy",
         "title": "Race Director"
       }
-    ]
+    ],
+    "builtBy": "SMS",
+    "copyright": 2022
   }
 }

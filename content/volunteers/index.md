@@ -11,4 +11,4 @@ We’re using Ultrasignup again this year.  Link will be available mid to late F
 
 Thank you again.
 
-Ginn, Jeff, and Tim
+Ginn, Tim, and Seth
