@@ -2,6 +2,7 @@
 title: "Runners"
 menu: "mainmenu"
 weight: "1"
+museum_link: "https://google.com"
 ---
 
 ## The Course
@@ -13,6 +14,8 @@ The course is mostly single track trail with a mix of open fields, dirt road and
 
 [Download a PDF of the HAT Course](http://localhost:1313/img/hat_course_map.png)
 
+{{< passedLink link="https://www.google.com/maps/place/Steppingstone+Farm+Museum/@39.6018227,-76.1398516,17z/data=!3m1!4b1!4m5!3m4!1s0x89c7c65ed0c11c41:0x5232b39734cda230!8m2!3d39.6018172!4d-76.1398981" title="Map to Steppingstone Museum" >}} <br />
+
 ## Entry and Refund Policy
 The starting field is limited to 500 runners. A waiting list will be maintained for entrants 501-750. Entrants will be added on a first come first served basis as the original entrant pool is reduced by withdrawals.
 
@@ -22,7 +25,7 @@ We do not defer or transfer entries.
 ## Withdrawal
 Withdrawing from the race can be done through UltraSignup.
 
-1. Sign in to [UltraSignup](http://ultrasignup.com)
+1. Sign in to {{< registrationMarkdownLink title="ultrasignup.com" >}}
 2. Go to Account Info and select My Registrations,
 3. Edit Hat Run and Click Cancel.
 

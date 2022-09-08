@@ -1,0 +1,4 @@
+<a {{with .Get "link" }}href="{{.}}" {{end}} target="_blank">{{ with .Get "title" }}{{.}}{{else}}{{.Get
+  "url"}}{{end}}</a>
+
+<!-- {{.Site.Params.registerLink}} -->
