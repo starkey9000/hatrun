@@ -94,9 +94,16 @@ Packet pickup is held from 3:00 pm to 6:00 pm in the garage near the back of the
 - Ultra-Fries (French Fries)/ Pierogies will be available after 12
 
  
-## Notes:
+### Notes:
 1. The Start/Finish Pavilion is covered and a great place to leave a drop bag and finish bag.  
 2. Gels:  We do not supply gels, please bring them if you plan to use them.
 3. Salt tabs:  We do not supply salt tabs, please bring them if you plan to use them 
 
+## 2022 RACE
 
+Video of the 2022 race provided by
+Image gallery provided by
+
+{{< youtube id="WLEZ2Sb7bUU" >}}
+
+{{< passedLink link="https://alexharris.smugmug.com/Running/2022-Races/HAT-50K" title="Gallery of photos from 2022" >}}
