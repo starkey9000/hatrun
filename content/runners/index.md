@@ -71,3 +71,32 @@ Packet pickup is held from 3:00 pm to 6:00 pm in the garage near the back of the
 | 3:50	      | Aid station #4 closes (7 hrs 20 mins for 25.7 miles)a runner arriving after 3:50pm will be asked to skip the next 5-mile section and return to the finish by car and will be a DNF. |
 | 5:30	      | HAT Run closes |
 | 6:00	      | Park closes. Runners should be out of the parking area before the park gates are locked. |
+
+## Aid Stations
+### Milage and Pace
+
+|Aid Station            | Type       | Section Milage | Total Milage | Cut Off Time (Hours)| Cut Off Time of Day|
+|-----------------------|------------|----------------|--------------|---------------------|--------------------|
+| Start/Finish Pavilion | Fluids     | 3              | 3            |                     |                    |
+| Picnic Area I         | Full       | 4.7            | 7.7          |                     |                    |
+| Picnic Area II        | Full*      | 4.1            | 11.8         |                     |                    |
+| Unmanned Water Stop   | Water Only | 3.2            | 15           |                     |                    |
+| Start/Finish Pavilion | Full*      | 2              | 17           | 4:30                | 1:00 PM            |
+| Picnic Area I         | Full*      | 4.6            | 21.6         | 5:50                | 2:20 PM            |
+| Picnic Area II        | Full*      | 4.1            | 25.7         | 7:20                | 3:50 PM            |
+| Unmanned Water Stop   | Water Only | 3.3            | 29           | 8:20                | 4:50 PM            |
+| Start/Finish Pavilion | Full*      | 2              | 31           | 9:00                | 4:30 PM            |
+
+
+***Full:**
+- Beverages: Water, Gatorade, Coke
+- Food: Peanut Butter and Jelly, cookies, Pringles, Orange slices, Bananas, Grilled cheese, quesadillas, 
+- Ultra-Fries (French Fries)/ Pierogies will be available after 12
+
+ 
+## Notes:
+1. The Start/Finish Pavilion is covered and a great place to leave a drop bag and finish bag.  
+2. Gels:  We do not supply gels, please bring them if you plan to use them.
+3. Salt tabs:  We do not supply salt tabs, please bring them if you plan to use them 
+
+

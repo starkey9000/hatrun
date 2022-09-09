@@ -295,6 +295,10 @@ ul {
   display: inline-block;
 }
 
+.main-content-narrow-wrapper h3 {
+  margin-bottom: .8rem;
+}
+
 .main-content-narrow-wrapper h2::after {
   content: "";
   display: block;
@@ -306,7 +310,8 @@ ul {
   line-height: .1rem;
 }
 
-.main-content-narrow-wrapper ol {
+.main-content-narrow-wrapper ol,
+.main-content-narrow-wrapper ul {
   margin-bottom: .8rem;
   padding-left: 20px;
 }
@@ -475,6 +480,10 @@ p {
 
 
 /* RUNNERS */
+
+table {
+  margin-bottom: 1rem;
+}
 
 table,
 th,
