@@ -109,4 +109,3 @@ style="margin-bottom: 1rem" >}}
 #### Video of the 2022 race provided by
 
 {{< youtube id="WLEZ2Sb7bUU" >}}
-
